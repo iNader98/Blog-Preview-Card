@@ -23,7 +23,7 @@ body {
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
 
 }
-.card img {
+.card > img {
     width: 100%;
     display: block;
     margin-bottom: 24px;
@@ -39,11 +39,6 @@ body {
     border-radius: 4px;
     max-width: 82px;
     width: 100%;
-    height: 29px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .card-content p.date {
     font-size: 12px;
@@ -56,7 +51,6 @@ body {
     font-weight: bold;
     line-height: 120%;
     max-width: 288px;
-    text-align: center;
     margin-bottom: 16px;
 }
 .card-content p {
@@ -64,12 +58,12 @@ body {
     font-weight: 500;
     line-height: 24px;
     color: #7F7F7F;
-    margin-bottom: 12px;
 }
 .card-content .author {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-top: 24px;
 }
 .card-content .author img {
     width: 40px;
